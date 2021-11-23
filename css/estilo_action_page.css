@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header {
+    background-color: #C6FEAC;
+    font-size: 40px;
+    color: #3EA5BE;
+    text-align: center;
+}
+header, nav, main, footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+*{
+			margin:  0;
+			padding: 0;
+			}
+main {
+    color: #FFFFFF;
+    background-color: #3EA5BE;
+    padding: 50px;
+}
+nav {
+    background-color: #AD6FCD;
+	padding: 10px;
+}

@@ -1,0 +1,115 @@
+/*CSS Document*/
+header {
+    background-color: #F79177;
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+header,h1,h2,h5,nav,main,footer{
+	font-family: 'Montserrat', sans-serif;
+}
+header, nav, main, footer {
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+footer  {
+    padding: 30px;
+    background-color: #B697C6;
+    height: 80px;
+}
+footer h5 {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+}
+body main section {
+    background-color: #F47F99;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: medium double #FFFFFF;
+}
+img {
+    width: 180px;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	font-size: 34px;
+	color:#6ECAB0;
+    text-align: center;
+	font-weight: bold;
+}
+#pedeinicio{
+	color: #6ECAB0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+main {
+    color: #FFFFFF;
+    background-color: #F7DA62;
+    padding: 20px;
+}
+nav {
+    background-color: #B697C6;
+}
+body nav ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #F7DA62;
+    
+    font-weight: bolder;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a:hover {
+    color: #EAD659;
+    font-weight: bold;
+    
+}
+a:link{
+	color:#F7DA62;
+	font-weight: bold;
+	
+}
+a:visited{
+	color:#ACF689;
+	font-weight: bolder;
+}
+#titulouno {
+	 background-color: #6ECAB0;
+	
+}
+input[type=text],input[type=email],input[type=tel] {
+	width: 50%;
+	padding: 10px;
+	margin: 10px 0;
+	background-color:#B697C6;
+	color:#F7DA62;
+	border: none;
+}
+input[type=button],input[type=submit] {
+	
+	background-color: #B697C6;
+	color:aliceblue;
+	padding: 10px;
+	margin: 10px 0;
+	border-radius: 8px;
+	cursor: pointer;
+}
+

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<link href="../css/style_enlaces.css" rel="stylesheet" type="text/css">
+</head>
+	<header>
+	  <h1>Formularios</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="Etiquetas.html">Etiquetas</a></li>
+			<li><a href="video.html">Vídeo</a></li>
+			<li><a href="imagenes.html">Imágenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="animacion.html">Animación </a></li>
+		    <li><a href="Formularios.html">Formularios </a></li>
+			<li><a href="Hallowin.html">Dia de muertos </a></li>
+			<li><a href="Formularios_tarea.html">Encuesta</a></li>
+			<li><a href="flexbox.html">Flexbox</a></li>
+			
+		</ul>
+	</nav>
+	<main>
+	<section>
+		  <h2>Inserción de formulario</h2>
+		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem iste voluptatibus nostrum minima, porro reiciendis inventore illum commodi, cumque recusandae, facere mollitia neque nobis obcaecati fugiat sunt odit saepe magni.</p>
+		<form action="action_page.html" method="get"> 
+		   <label>Nombre</label>
+			<input type="text" id="idname" name="nombre">
+		  <input type="submit" name="submit4" id="submit4" value="enviar">
+			
+		</form>
+	  </section>
+		<section>
+		<h2>Inserción de formulario con casillas de verificación</h2>
+			<form action="action_page.html" method="get">
+			<label>¿Cuales son los géneros musicales que prefieres?</label>
+			  <input type="checkbox" id="generom1" name="generom1" value="Pop">
+			  <label for="">Pop</label>
+				<input type="checkbox" id="generom2" name="generom2" value="Rock">
+			  <label for=""> Rock </label>
+				<input type="checkbox" id="generom3" name="generom3" value="Blues">
+			  <label for=""> Blues </label>
+				<input type="checkbox" id="generom4" name="generom4" value="Indie">
+			  <label for=""> Indie </label>
+				<input type="submit" name="submit3" id="submit3" value="enviar">
+			</form>
+		</section>
+		<section>	
+		<h2>Inserción de formulario con botones de radio</h2>
+			<form id="form1" name="form1" method="get" action="action_page.html">
+				<label>Genero</label>
+				<input type="radio" name="radio" id="radio" value="radio">
+				<label for="radio">Femenino&nbsp;</label>
+			<input type="radio" name="radio" id="radio2" value="radio2">
+				<label for="radio2">Masculino&nbsp;</label>
+				<input type="submit" name="submit" id="submit" value="enviar">
+			</form>
+			
+		</section>
+		<section>
+		<h2>Formulario de contacto</h2>
+			<h3>Contacto</h3>
+			<form action="action_page.html" method="get">  
+				<table>
+				 <tbody> <tr>
+					 <td> <label for="textfield"> Nombre&nbsp;</label>&nbsp;</td>
+					 <td> <input type="text" name="textfield" id="textfield">&nbsp; </td>
+					 </tr>
+					 <tr>
+					 <td> <label for="email">Email&nbsp;</label>&nbsp;</td>
+					 <td> <input type="email" name="email" id="email">&nbsp; </td>
+					 </tr>
+					 <tr>
+					 <td> <label for="textarea"> Mensaje&nbsp;</label>&nbsp;</td>
+						 <td> <textarea name="textarea" id="textarea"></textarea> &nbsp; </td>
+					 </tr>
+					  <tr>
+					 <td> <input type="submit" name="submit2" id="submit2" value="Enviar">&nbsp; </td>
+						  <td>&nbsp;</td>
+					 </tr>
+					</tbody>
+				</table>
+			</form>
+		</section>	
+		<section>
+			<h2>Formulario de ingreso o login</h2>
+			<form>
+			<label for=""> Usuario</label>
+			<input type="text">
+				<label> Contraseña</label>
+				<input type="password">
+				<input type="submit">
+			
+			</form>
+			
+			
+		
+		</section>
+		
+	</main>
+
+<body>
+
+</body>
+</html>

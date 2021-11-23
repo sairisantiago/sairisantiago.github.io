@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+<link href="../css/estilo_formulario.css" rel="stylesheet" type="text/css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+	</style>
+</head>
+<header>
+	  <h1>Encuesta</h1>
+</header>
+	<nav>
+		<ul>
+			<li><a href="mi_primera_pagina.html">Mi primera página</a></li>
+			<li><a href="tablas.html">Tablas</a></li>
+			<li><a href="enlaces.html">Enlaces</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="Etiquetas.html">Etiquetas</a></li>
+			<li><a href="video.html">Video</a></li>
+			<li><a href="imagenes.html">Imágenes</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="animacion.html">Animación </a></li>
+		    <li><a href="Formularios.html">Formularios </a></li>
+			
+		</ul>
+	</nav>
+	<main>
+		
+		<h2 class="animate__animated animate__zoomIn animate__delay-3s">Descubra su estilo de aprendizaje</h2>
+			<p class="animate__animated animate__zoomIn animate__delay-2s" id="pedeinicio" >Este formulario se realiza con el fin de recabar información para identificar el tipo de estilo de aprendizaje que posee.</p>
+
+		
+		<section id="titulouno">
+		<h3>Instrucciones:</h3>
+			
+			<p>Elige una opción con la que más te identifiques de cada una de las preguntas</p>
+		</section>
+		<section>
+			<h3>Datos de contacto</h3>
+			<form action="action_page.html" method="get"> 
+		   <label>Nombre:</label>
+			<input type="text" id="idname" name="nombre">
+				
+			</form>
+		<form id="form1" name="form1" method="get" action="action_page.html">
+				<label>Género:</label>
+				<input type="radio" name="radio" id="radio" value="radio">
+				<label for="radio">Femenino&nbsp;</label>
+			<input type="radio" name="radio" id="radio2" value="radio2">
+				<label for="radio2">Masculino&nbsp;</label>
+			</form>
+			<form>
+				<label for="">Email:</label>
+				<input type="email" name="email" id="email">
+				
+			</form>
+			<form>
+				<label for="">Teléfono</label>
+			<input type="tel" name="tel" id="tel">
+				
+			</form>
+			
+			<form method="get" action="action_page.html">
+			<input type="submit" name="submit" id="submit" value="enviar">
+			</form>
+			
+		</section>
+		<section>
+		<form action="action_page.html" method="get">
+			<label>¿Cuál de las siguientes actividades disfrutas más?</label>
+			  <input type="checkbox" id="musica" name="musica" value="escucharmusica">
+			  <label for="">Escuchar música</label>
+				<input type="checkbox" id="peliculas" name="peliculas" value="verpeliculas">
+			  <label for=""> Ver peliculas </label>
+				<input type="checkbox" id="bailar" name="bailar" value="bailarconbuenamusica">
+			  <label for="">Bailar con buena música </label>
+				<input type="submit" name="submit2" id="submit2" value="enviar">
+			</form>
+		</section>
+		<section>
+			<form action="action_page.html" method="get"> 
+		   <label>Cuando conversas con otra persona, tú:</label>
+			<input type="checkbox" id="escuchar" name="escuchar" value="escuchar">
+			  <label for="">La escuchas atentamente</label>
+				<input type="checkbox" id="observar" name="observar" value="laobservo">
+			  <label for=""> La observas </label>
+				<input type="checkbox" id="tocar" name="tocar" value="tiendes a tocarla">
+			  <label for="">Tiendes a tocarla </label>
+		  <input type="submit" name="submit3" id="submit3" value="enviar">
+		</form>
+		</section>
+		<section>
+		<form action="action_page.html" method="get">
+			<label for="">¿Qué tipo de películas te gustan más?</label>			<textarea></textarea>
+			<input type="submit" name="submit4" id="submit4" value="enviar">
+
+			</form>
+		</section>
+		<section>
+			<form action="action_page.html" method="get"> 
+		   <label>¿Cómo es tu forma de vestir?</label>
+			<input type="checkbox" id="casual" name="casual" value="casual">
+			  <label for="">Casual</label>
+				<input type="checkbox" id="formal" name="formal" value="formal">
+			  <label for=""> Formal</label>
+				<input type="checkbox" id="informal" name="informal" value="informal">
+			  <label for="">Informal </label>
+		  <input type="submit" name="submit5" id="submit5" value="enviar">
+		</form>
+		</section>
+		<section>
+			<form action="action_page.html" method="get"> 
+		   <label>¿Por qué te distingues?</label>
+			<input type="checkbox" id="intuicion" name="intuicion" value="intuicion">
+			  <label for="">Por tener una gran intuición</label>
+				<input type="checkbox" id="conversador" name="conversador" value="conversador">
+			  <label for="">Por ser un buen conversador</label>
+				<input type="checkbox" id="observador" name="observador" value="observador">
+			  <label for="">Por ser un buen observador</label>
+		  <input type="submit" name="submit6" id="submit6" value="enviar">
+		</form>
+		</section>
+	</main>
+<body>
+
+</body>
+	<footer>
+	<h5>Elaborado por: Sairi Santiago Navarrete</h5>
+	</footer>
+</html>

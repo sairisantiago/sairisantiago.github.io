@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tablas</title>
+	<style type="text/css">
+		*{
+				margin:  0px;
+				padding: 0px;
+			}
+		h1{
+				color:#510095;
+				font-size: 48px;
+			}
+			
+			h2{
+				color:#510095;
+				font-size: 32px; 
+			
+			}
+		h5{
+			color:#510095;
+			font-size: 18px;
+		}
+	header,main,nav,footer{
+				width:1024px;
+		        text-align:center;
+				margin: 0auto; /*centra la caja automaticamente en horizontal*/
+			}
+	header,footer{
+				padding:60px;	
+				height:40px;
+				background-color:#D1B9FB ;
+			}
+		
+		nav{
+			
+		}
+		table{
+			margin: 15px;
+		}
+		
+		main{
+			height: auto;
+			padding: 60px;
+			background-color:lavender;
+			}
+		section{
+				margin:20px;
+				padding:40px;
+				border: solid 5px #b392ac;
+		
+			}
+		table{
+			border-collapse: collapse;
+		}
+		th,td{
+			padding: 10px;
+		}
+		th{
+			text-align: left;
+			background-color: #2A2643;
+			color:lavender;
+			
+		}
+		td{
+			background-color:lavender;
+			color: #2A2643;
+			
+		}
+		#t01{
+			border:double 4px #7C03B0;
+		}
+		#th01 th{
+			background-color:#7755F4
+		}
+		#t01 td{
+			background-color:#F0E2FF
+		}
+		#t02 th, #t02 td{
+			padding: 15px;
+			text-align:left;
+		}
+		#t02 tr:nth-child(even){
+			background-color: pink;
+		}
+		#t02 tr:nth-child(odd){
+			background-color: silver;
+		}
+		.tabla th{
+			background-color: cornflowerblue;
+		}
+		.tabla td{
+			background-color:azure;
+		}
+		.tabla tr{
+			background-color: darkslateblue
+		}
+		tr:hover{
+			background-color: antiquewhite;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1> TABLAS EN HTML</h1>
+	</header>
+	<nav> </nav>
+	<main>
+	<section>
+		<h2>Tabla simple</h2>
+		
+		<table border= "1">
+		<thead>
+			<tr>
+			<th>Nombre</th>
+				<th>Direccion</th>
+				<th>Telefono</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Sairi Santiago</td>
+				<td>santiagosairi@gmail.com</td>
+				<td>7811045060</td>
+				</tr>
+				<tr>
+				<td>Samantha Salas</td>
+				<td>samantha.hi@gmail.com</td>
+				<td>7828297856</td>
+				</tr>
+				<tr>
+				<td>Oradis Navarrete</td>
+				<td>oradisng@gmail.com</td>
+				<td>7811946734</td>
+				</tr>
+				<tr>
+				<td>Samuel Santiago</td>
+				<td>samsan@gmail.com</td>
+				<td>7651237856</td>
+				</tr>
+				<tr>
+				<td>Isael Garcia</td>
+				<td>isagarr@gmail.com</td>
+				<td>7655637856</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+<section>
+	<h2>Tabla con selda que abarca dos columnas</h2>
+			<table border="1">
+				<thead>
+				<tr>
+					<th>Nombre</th>
+					<th colspan="2">Telefonos</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>Flor del Campo</td>
+					<td>7813456194</td>
+					<td>7814520398</td>
+				</tr>
+				<tr>
+					<td>Rosebel Garcia</td>
+					<td>7811202104</td>
+					<td>7814526374</td>
+				</tr>
+				<tr>
+					<td>Sadiel Santiago</td>
+					<td>7815674320</td>
+					<td>7814530987</td>
+				</tr>
+				</tbody>
+				<tfoot></tfoot>
+			</table>
+			
+		</section>
+		<section>
+		<h2>Tabla modificada a partir de reglas de identidad en CSS</h2>
+		<table class="tabla" width="600" border= "1" id="t01">
+		<thead>
+			<tr>
+				<th scope="col">Nombre</th>
+				<th scope="col">Apellidos</th>
+				<th scope="col">Edad</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Sairi</td>
+				<td>Santiago Navarrete</td>
+				<td>22</td>
+				</tr>
+				<tr>
+				<td>Samantha</td>
+				<td>Emicente Salas</td>
+				<td>21</td>
+				</tr>
+				<tr>
+				<td>Oradis</td>
+				<td>Navarrete Garcia</td>
+				<td>25</td>
+				</tr>
+				
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		</section>
+		<section>
+			<table id="t02" border="1"> </table>
+		  <table class="tabla" border= "1">
+		    <thead>
+		      <tr>
+		        <th>Nombre</th>
+		        <th>Correo</th>
+		        <th>Telefono</th>
+	          </tr>
+	        </thead>
+		    <tbody>
+		      <tr>
+		        <td>Sairi Santiago</td>
+		        <td>santiagosairi@gmail.com</td>
+		        <td>7811045060</td>
+	          </tr>
+		      <tr>
+		        <td>Samantha Salas</td>
+		        <td>samantha.hi@gmail.com</td>
+		        <td>7828297856</td>
+	          </tr>
+		      <tr>
+		        <td>Oradis Navarrete</td>
+		        <td>oradisng@gmail.com</td>
+		        <td>7811946734</td>
+	          </tr>
+		      <tr>
+		        <td>Samuel Santiago</td>
+		        <td>samsan@gmail.com</td>
+		        <td>7651237856</td>
+	          </tr>
+		      <tr>
+		        <td>Isael Garcia</td>
+		        <td>isagarr@gmail.com</td>
+		        <td>7655637856</td>
+	          </tr>
+	        </tbody>
+		    <tfoot>
+	        </tfoot>
+	      </table>
+	  </section>
+		<section>
+		<table class="tabla" width="500" border="1">
+			<thead>
+			<tr>
+      <th>nombres</th>
+      <th>Edad</th>
+      <th>genero</th>
+      <th>deporte</th>
+    </tr>
+			</thead>
+  <tbody>
+    
+    <tr>
+      <td>maria lopez</td>
+      <td>15</td>
+      <td>femenino</td>
+      <td>fut</td>
+    </tr>
+    <tr>
+      <td>Gabriela Hernandez</td>
+      <td>14</td>
+      <td>femenino</td>
+      <td>fut</td>
+    </tr>
+    <tr>
+      <td>Juan Becera</td>
+      <td>11</td>
+      <td>Masculino</td>
+      <td>fut</td>
+    </tr>
+  </tbody>
+</table>
+		
+		</section>
+	</main>
+	<footer>
+		<h5>Elaborado por: Sairi Santiago Navarrete</h5>
+	</footer>
+</body>
+</html>

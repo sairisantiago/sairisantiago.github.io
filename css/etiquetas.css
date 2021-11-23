@@ -1,0 +1,79 @@
+/* CSS Document */
+	*{
+				margin:  0;
+				padding: 0;
+			}
+		
+		h1{
+			color:beige;
+			font-size: 45px;
+			font-family: 'Poppins', sans-serif;
+			
+		}
+		h2{
+			color:bisque;
+			padding: 20px;
+			font-family:'Poppins', sans-serif;
+		}
+		h4,h5{
+			color:aliceblue;
+			font-size: 16px;
+			font-family: "gill sans";
+		}
+	#tarjetauno{
+			background-color:#AE90D9;
+  			padding: 40px;
+ 			 text-align: center;
+		}
+ 		#tarjetados{
+			background-color:#DA7CD9;
+  			padding: 40px;
+ 			 text-align: center;
+}
+		#tarjetatres{
+			background-color:#945591;
+  			padding: 40px;
+ 			text-align: center;
+}
+
+		#tarjetacuatro{
+			background-color:#96598A;
+  			padding: 40px;
+ 			text-align: center;
+}
+		#tarjetacinco{
+			background-color:#7F529F;
+  			padding: 40px;
+ 			text-align: center;
+}
+		header{
+			background-color:steelblue;
+		}
+		header,footer{
+			padding:20px;
+			text-align: center;
+			height:90px;
+			
+		}
+		nav{
+			height: 1px;
+			padding: 10px;
+			background-color:#E3C1F3;
+		}
+		main,footer{
+			background-color:cornflowerblue;
+		}
+		main{
+		padding:50px;
+		}
+		section{
+			border: solid 5px #E3C1F3;
+			margin:30px;
+			padding:20px;
+			background-color:#5864BF;
+	
+		} 
+				
+				
+				
+			
